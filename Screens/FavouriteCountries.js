@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet,FlatList,Text, View, Button } from 'react-native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { TouchableOpacity } from 'react-native-gesture-handler';
+import { NavigationContainer } from '@react-navigation/native';
 
 const Drawer = createDrawerNavigator();
 
